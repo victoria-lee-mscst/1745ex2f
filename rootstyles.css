@@ -4,12 +4,32 @@
 }
 
 header {
-	text-align: left;
+	text-align: center;
+    height: 50px;
+}
+header {
+    background-color: gray;
+    color: white;
+}
+nav {
+    display: block;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0em;
+    padding: 0em;
+}
+
+nav ul li {
+	display: block;
+	float: left;
+	width: 18%;
+	padding: 0.5em;
 }
 nav ul {
 	font-size: 1.25em;
 	line-height: 2.25em;
-	/*font-weight: bold;*/
 	list-style-type: none;
 }
 nav ul li {
@@ -25,6 +45,13 @@ nav ul li a {
 }
 nav ul li a:hover {
 	color: rgb(255,255,255);
+}
+
+section {
+	width: 85%;
+	float: left;
+	clear: both;
+	padding-left: 1em;
 }
 
 section h1 {
